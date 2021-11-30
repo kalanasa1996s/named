@@ -7,12 +7,12 @@
 //include "/etc/bind/zones.rfc1918";
 
 
-zone "kalana.local." {
+zone "example.local." {
 type master;
-file "/etc/bind/for.kalana.local";
+file "/etc/bind/for.example.local";
 };
 
 zone "1.168.192.in-addr.arpa." {
 type master;
-file "/etc/bind/rev.kalana.local";
+file "/etc/bind/rev.example.local";
 };
